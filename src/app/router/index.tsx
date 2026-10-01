@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { PublicLayout } from '@/components/layout/PublicLayout'
 import { AdminLayout } from '@/components/layout/AdminLayout'
-import { PlaceholderPage } from '@/pages/PlaceholderPage'
-import { NotFoundPage } from '@/pages/NotFoundPage'
+import { PlaceholderPage } from '@/components/common/PlaceholderPage'
+import { NotFoundPage } from '@/pages/public/NotFoundPage'
 
 export const router = createBrowserRouter([
   {
