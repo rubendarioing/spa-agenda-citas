@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Button } from '@/components/ui/button'
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         </CardContent>
       </Card>
     </main>
-  );
+  )
 }
 
-export default App;
+export default App
